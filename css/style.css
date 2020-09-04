@@ -1,22 +1,111 @@
+.container{
+    width:98%;
+    margin: auto;
+}
+
+
+/* -------------------------head start-------------------------------------- */
+
+
 .header{
     width: 100%;
-    background:rgb(153, 139, 139);
-    height: 60px;
+    border-bottom:solid #ddd 1px;
 }
 
 .mainHead{
     width: 100%;
-    background:rgb(46, 37, 37);
-    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.right{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img{
+    width:90px;
+    hight:20px;
+}
+
+.text{
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px 40px;
+    font-size: medium;
+    width: 450px;
+}
+
+.button{
+    width: 80px;
+    height: 35px;
+    background-color: #4285f4;
+    border: 0;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .navbar{
     margin-top: 10px;
-    width: 100%;
-    background:rgb(104, 100, 100);
-    height: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
 }
 
+.first_ul{
+    display: flex;
+    margin-bottom: 0;
+    height: 25px;
+    align-self: flex-end;
+}
+
+.first_ul li{
+    margin-right: 20px;
+}
+
+.first_ul li:first-of-type{
+    color: blue;
+    border-bottom: 3px blue solid ;
+}
+
+.first_ul li:hover{
+    cursor: pointer;
+}
+
+.first_ul li:active{
+    color:blue;
+}
+
+.sec_ul{
+    display: flex;
+    margin-bottom: 0;
+    height: 25px;
+    align-self: flex-end;
+    
+}
+
+.sec_ul li{
+    margin-right: 20px;
+}
+
+.sec_ul li:hover{
+    cursor: pointer;
+}
+
+.sec_ul li:active{
+    color:blue;
+}
+
+/* -------------------------head end-------------------------------------- */
 .main{
     width: 70%;
     height: 1000px;
