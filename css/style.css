@@ -107,7 +107,6 @@ ul{
 /* -------------------------head end-------------------------------------- */
 .main{
     width: 55%;
-    height: 1000px;
     margin-left: 50px;
 }
 
@@ -198,8 +197,74 @@ a{
     margin-right: 15px;
     margin-top:16px;
 }
-.footer{
+
+.videos{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+
+.topics{
+    width: 30%;
+    border: solid #ccc 1px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topics img{
+    width:100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.topics h4 {
+margin-left: 10px;
+}
+
+.topics p{
+    margin-left: 10px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: medium;
+    color:rgb(153, 146, 146);
+}
+
+.topics p span{
+    color:rgb(77, 75, 75);
+    font-weight: bold;
+}
+
+.related{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.related .twodivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.spacebet{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width:45%;
+    background-color: rgb(198, 209, 208,0.3);
+    margin-bottom: 10px;
+    padding:10px;
+    border-radius: 25px;
+}
+
+.spacebet .icon{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+/* .footer{
     width: 100%;
     height: 50px;
     background-color: blue;
-}
+} */
