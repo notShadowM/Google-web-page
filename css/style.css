@@ -1,15 +1,16 @@
-.container{
+/* .container{
     width:98%;
     margin: auto;
-}
+} */
 
 
 /* -------------------------head start-------------------------------------- */
 
 
 .header{
-    width: 100%;
     border-bottom:solid #ddd 1px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .mainHead{
@@ -302,4 +303,25 @@ margin-left: 10px;
     color:rgb(104, 103, 103);
     border-top: solid rgb(104, 103, 103,0.2) 1px;
     border-bottom: solid rgb(104, 103, 103,0.2) 1px;
+}
+
+.line2{
+    color:rgb(104, 103, 103);
+}
+
+.footer_ul{
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.footer_ul li{
+    margin-right: 20px;
+}
+
+.footer_ul li:hover{
+    cursor: pointer;
 }
